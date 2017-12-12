@@ -1,0 +1,23 @@
+{
+  "name": "6150final",
+  "version": "1.0.0",
+  "description": "MEAN stack INFO 6150 Final Project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruisun1994/MEAN-Angular2-INFO6150-Final.git"
+  },
+  "author": "Rui Sun, Mengfan Xu, Dongqi Guo, Tianjiao Xue, Kaiqi Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruisun1994/MEAN-Angular2-INFO6150-Final/issues"
+  },
+  "homepage": "https://github.com/ruisun1994/MEAN-Angular2-INFO6150-Final#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6"
+  }
+}
