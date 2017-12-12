@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/ruisun1994/MEAN-Angular2-INFO6150-Final#readme",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "mongoose": "^4.13.6"
   }

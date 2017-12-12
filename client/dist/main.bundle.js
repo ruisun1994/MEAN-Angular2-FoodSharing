@@ -250,7 +250,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, "#section3{\n  width: 100%;\n}\n\n.sharing-1{\n  float: left;\n  font-size: 10px;\n  position: relative;\n  height: 60em;\n  width: 100%;\n  margin-bottom: 5em;\n}\n", ""]);
 
 // exports
 
@@ -263,7 +263,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/home/home.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h1>Home</h1>\n"
+module.exports = "<div id=\"section3\">\n  <div class=\"sharing-1\">\n    <img src=\"/assets/home/section3/boat.jpg\">\n  </div>\n  <div class=\"sharing-2\"></div>\n</div>\n"
 
 /***/ }),
 
@@ -324,7 +324,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/navbar/navbar.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-md navbar-dark fixed-top bg-dark\">\n  <a class=\"navbar-brand\" routerLink=\"/home\">Food Sharing Website</a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarsExampleDefault\" aria-controls=\"navbarsExampleDefault\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarsExampleDefault\">\n    <ul class=\"navbar-nav mr-auto\">\n      <li class=\"nav-item\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <a class=\"nav-link\" routerLink=\"/home\">Home</a>\n      </li>\n      <li class=\"nav-item\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <a class=\"nav-link\" routerLink=\"/dashboard\">Dashboard</a>\n      </li>\n    </ul>\n  </div>\n</nav>\n"
+module.exports = "<nav class=\"navbar navbar-expand-md navbar-dark fixed-top bg-dark\">\n  <a class=\"navbar-brand\" routerLink=\"/home\">Food Sharing Website</a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarsExampleDefault\" aria-controls=\"navbarsExampleDefault\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarsExampleDefault\">\n    <ul class=\"navbar-nav navbar-left\">\n      <li class=\"nav-item\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <a class=\"nav-link\" routerLink=\"/home\">Home</a>\n      </li>\n      <li class=\"nav-item\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n        <a class=\"nav-link\" routerLink=\"/dashboard\">Dashboard</a>\n      </li>\n      <li class=\"nav-item\"><a class=\"nav-link\" href=\"#contact\">Profile</a></li>\n      <li class=\"nav-item\"><a class=\"nav-link\" href=\"#contact\">Blog</a></li>\n      <li class=\"nav-item\"><a class=\"nav-link\" href=\"#contact\">Login</a></li>\n      <li class=\"nav-item\"><a class=\"nav-link\" href=\"#contact\">Logout</a></li>\n      <li class=\"nav-item\"><a class=\"nav-link\" href=\"#contact\">Register</a></li>\n    </ul>\n  </div>\n</nav>\n"
 
 /***/ }),
 
