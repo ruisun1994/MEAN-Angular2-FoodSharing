@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
   <a class="navbar-brand" routerLink="/home">Food Sharing Website</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -16,7 +16,9 @@
       <li class="nav-item"><a class="nav-link" href="#contact">Blog</a></li>
       <li class="nav-item"><a class="nav-link" href="#contact">Login</a></li>
       <li class="nav-item"><a class="nav-link" href="#contact">Logout</a></li>
-      <li class="nav-item"><a class="nav-link" href="#contact">Register</a></li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" routerLink="/register">Register</a>
+      </li>
     </ul>
   </div>
 </nav>

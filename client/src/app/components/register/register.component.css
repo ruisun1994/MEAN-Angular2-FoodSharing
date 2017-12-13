@@ -1,0 +1,24 @@
+.form-register{
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 0px 1px #DDDDDD;
+}
+
+.form-register .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-register .form-control:focus {
+  z-index: 2;
+}
+
+.help-block{
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+  font-size: 10px;
+}
