@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/ruisun1994/MEAN-Angular2-INFO6150-Final.git"
   },
-  "author": "Rui Sun, Mengfan Xu, Dongqi Guo, Tianjiao Xue, Kaiqi Zhang",
+  "author": "Rui Sun, Mengfan Xu, Dongqi Guo, Tianjiao Xue, Kaijie Zhang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ruisun1994/MEAN-Angular2-INFO6150-Final/issues"
@@ -19,6 +19,7 @@
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
     "express": "^4.16.2",
     "mongoose": "^4.13.6"
   }
