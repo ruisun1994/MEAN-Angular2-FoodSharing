@@ -12,7 +12,7 @@
 
   <!-- Username Field -->
   <div class="form-group">
-    <label for="username">Username</label>
+    <!--<label for="username">Username</label>-->
     <div
       [ngClass]="{'has-error': form.controls.username.errors && form.controls.username.dirty, 'has-success': form.controls.username.valid && form.controls.username.dirty }">
       <input class="form-control" type="text" name="username" formControlName="username"/>
@@ -25,7 +25,7 @@
 
   <!-- Password Field  -->
   <div class="form-group">
-    <label for="password">Password</label>
+    <!--<label for="password">Password</label>-->
     <div
       [ngClass]="{'has-error': form.controls.password.errors && form.controls.password.dirty, 'has-success': form.controls.password.valid && form.controls.password.dirty }">
       <input class="form-control" type="password" name="password" formControlName="password"/>

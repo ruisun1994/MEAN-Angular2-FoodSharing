@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-body {
-  padding-bottom: 40px;
-  background-color: #eee;
+body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }

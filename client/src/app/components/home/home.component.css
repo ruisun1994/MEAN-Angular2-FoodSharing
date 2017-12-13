@@ -11,99 +11,6 @@ h2 {
   padding-top: 0;
 }
 
-nav a {
-  padding: 5px 10px;
-  text-decoration: none;
-  margin-top: 10px;
-  display: inline-block;
-  background-color: #eee;
-  border-radius: 4px;
-}
-
-nav a:visited, a:link {
-  color: #607D8B;
-}
-
-nav a:hover {
-  color: #039be5;
-  background-color: #CFD8DC;
-}
-
-nav a.active {
-  color: #039be5;
-}
-
-nav.responsive a, nav.responsive span, nav.responsive div {
-  color: white
-}
-
-#logo {
-  font-size: 0px;
-
-  height: 0em;
-
-  width: 0em;
-
-}
-
-#logo a {
-  text-decoration: none;
-  height: 0em;
-  width: 0em;
-}
-
-#logo img {
-  width: 200px;
-
-}
-
-.menu > ul {
-  position: relative;
-  float: right;
-  right: 50px;
-  height: 100%;
-}
-
-.menu > ul > li {
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  transition: all 0.5s;
-}
-
-.menu > ul > li span {
-  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
-  font-weight: 600;
-}
-
-.menu > ul > li a {
-  margin-left: 15px;
-  text-transform: none;
-  z-index: 999;
-}
-
-.menu > ul > li a i {
-  font-size: 24px
-}
-
-@media screen and (max-width: 650px) {
-  nav .menu > ul > li a i {
-    font-size: 18px
-  }
-}
-
-#sign-up-link, #login-link {
-
-  display: inline-block;
-}
-
-#sign-up-link > span, #login-link > span {
-  font-size: 12px
-}
-
-#sign-up-link-mobile, #login-link-mobile {
-  display: block
-}
 
 #hero-section {
   font-size: 10px;
@@ -142,17 +49,6 @@ nav.responsive a, nav.responsive span, nav.responsive div {
   list-style: none;
 }
 
-#navbar {
-  width: 100%;
-  z-index: 999;
-  position: absolute;
-  background-color: black;
-  height: 82px;
-  float: left;
-  margin: 0;
-  padding: 0;
-}
-
 #hero-message {
   position: relative;
   margin: 0;
@@ -169,7 +65,7 @@ nav.responsive a, nav.responsive span, nav.responsive div {
   text-align: center;
   width: 100%;
   color: white;
-  font-weight: 800px;
+  font-weight: 800;
   font-size: 4em;
 }
 
@@ -178,7 +74,7 @@ nav.responsive a, nav.responsive span, nav.responsive div {
   padding: 0;
   text-align: center;
   width: 100%;
-  font-weight: 400px;
+  font-weight: 400;
   color: white;
 }
 
@@ -242,23 +138,23 @@ nav.responsive a, nav.responsive span, nav.responsive div {
   margin: auto auto;
 }
 
-#searchbar {
-  position: relative;
-  top: 100px;
-  margin: 200px;
-  width: 400px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  background-image: url('searchicon.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-}
+/*#searchbar {*/
+  /*position: relative;*/
+  /*top: 100px;*/
+  /*margin: 200px;*/
+  /*width: 400px;*/
+  /*box-sizing: border-box;*/
+  /*border: 2px solid #ccc;*/
+  /*border-radius: 4px;*/
+  /*font-size: 16px;*/
+  /*background-color: white;*/
+  /*background-image: url('searchicon.png');*/
+  /*background-position: 10px 10px;*/
+  /*background-repeat: no-repeat;*/
+  /*padding: 12px 20px 12px 40px;*/
+  /*-webkit-transition: width 0.4s ease-in-out;*/
+  /*transition: width 0.4s ease-in-out;*/
+/*}*/
 
 #searchbar:focus {
   width: 100%;
