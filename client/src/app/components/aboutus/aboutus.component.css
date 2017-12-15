@@ -1,0 +1,61 @@
+div .main-img{
+  width: 100%;
+  height: 80%;
+
+  object-fit:cover;
+
+}
+
+div .right{
+  float: right!important;
+}
+
+
+section div{
+  block:inline;
+}
+
+
+div .col-4 img{
+
+  height:250px;
+}
+
+.container{
+  with:100%;
+
+
+}
+
+.row{
+  margin: 10%;
+
+
+}
+
+/*p{*/
+/*font-size: 22px;*/
+/*color:#4e4e4e;*/
+/*margin-top: 30px;*/
+
+/*}*/
+
+div h2{
+  margin-top: 5%;
+}
+
+p {
+  font-size: 22px;
+
+  color: #999999;
+
+}
+
+b{
+  background-color: #eeeeee;
+}
+
+span{
+  font-size: 50px;
+  color: black;
+}

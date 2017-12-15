@@ -1,1 +1,1 @@
-# MEAN-Angular2-INFO6150-Final
+"# MEAN-Stack-With-Angular-2-Tutorial" 
