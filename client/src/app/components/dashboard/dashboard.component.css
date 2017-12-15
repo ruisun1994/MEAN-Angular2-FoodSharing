@@ -32,5 +32,113 @@ hr.style-one:after {
 }
 
 .container-fluid{
-  /*background-color: #FFFFF3;*/
 }
+
+/*!* hardware accelatator class *!*/
+/*.trans3d*/
+/*{*/
+  /*-webkit-transform-style: preserve-3d;*/
+  /*-webkit-transform: translate3d(0, 0, 0);*/
+  /*-moz-transform-style: preserve-3d;*/
+  /*-moz-transform: translate3d(0, 0, 0);*/
+  /*-ms-transform-style:preserve-3d;*/
+  /*-ms-transform: translate3d(0, 0, 0);*/
+  /*transform-style:preserve-3d;*/
+  /*transform: translate3d(0, 0, 0);*/
+
+  /*!*-webkit-backface-visibility: hidden;*/
+      /*-moz-backface-visibility: hidden;*/
+      /*-ms-backface-visibility:hidden;*/
+      /*backface-visibility:hidden;*!*/
+/*}*/
+
+/*#contentContainer*/
+/*{*/
+  /*position:absolute;*/
+  /*margin-left:-500px;*/
+  /*margin-top:-500px;*/
+  /*left:50%;*/
+  /*top:50%;*/
+  /*width:1000px;*/
+  /*height:1000px;*/
+
+/*}*/
+
+/*#carouselContainer*/
+/*{*/
+  /*position:absolute;*/
+  /*margin-left:-500px;*/
+  /*margin-top:-500px;*/
+  /*left:50%;*/
+  /*top:50%;*/
+  /*width:1000px;*/
+  /*height:1000px;*/
+/*}*/
+
+/*.carouselItem*/
+/*{*/
+  /*width:320px;*/
+  /*height:130px;*/
+  /*position:absolute;*/
+  /*left:50%;*/
+  /*top:50%;*/
+  /*margin-left:-160px;*/
+  /*margin-top:-90px;*/
+  /*visibility:hidden;*/
+/*}*/
+
+/*.carouselItemInner*/
+/*{*/
+  /*width:320px;*/
+  /*height:130px;*/
+  /*position:absolute;*/
+
+  /*opacity: 0.1;*/
+/*<!--border:10px solid rgba(255, 255, 255, .5); -->*/
+  /*color:aqua;*/
+  /*font-size:72px;*/
+  /*left:50%;*/
+  /*top:50%;*/
+  /*margin-left:-160px;*/
+  /*margin-top:-90px;*/
+  /*text-align:center;*/
+  /*padding-top:50px;*/
+/*}*/
+
+/*#item1 {*/
+  /*background-image: url('http://www.newarticles2go.com/MexicanFood3.jpg')*/
+/*}*/
+/*#item2 {*/
+  /*background-image: url('http://dailyhealthtipz.com/wp-content/uploads/2017/07/nutrition-food-120x120.jpg')*/
+/*}*/
+/*#item3 {*/
+  /*background-image: url('http://www.zscafe.com/wp-content/uploads/2017/09/African-Food-Truck-Life-9-120x120.jpg')*/
+/*}*/
+/*#item4 {*/
+  /*background-image: url('http://lh3.googleusercontent.com/7a6yF9y_7sS8mUBQqOE64DmBo-uStD2s74ZUzX4k93m9ffMr_lxYAXLaTrpuk1FN2C18=w120')*/
+/*}*/
+/*#item5 {*/
+  /*background-image: url('http://www.sofabfood.com/wp-content/uploads/2016/03/Cheesy-Pizza-Dip-SoFabFood-120x120.jpg')*/
+/*}*/
+/*#item6 {*/
+  /*background-image: url('http://www.aroogas.com/sites/aroogas.com/files/medium_WingsExtraSauceOnFries_0.jpg')*/
+/*}*/
+/*#item7 {*/
+  /*background-image: url('http://relieveacidreflux.com/wp-content/uploads/2015/10/Food-to-Avoid-with-GERD-120x120.jpg')*/
+/*}*/
+/*#item8 {*/
+  /*background-image: url('http://del.h-cdn.co/assets/cm/15/10/54f9233575c4d_-_inside-out-cheeseburger-120.jpg')*/
+/*}*/
+/*#item9 {*/
+  /*background-image: url('http://www.recipe4living.com/assets/itemimages/120/120/3/96606ee436e3499673bf07767f4636b2_491679033-2.jpg')*/
+/*}*/
+/*#item10 {*/
+  /*background-image: url('http://www.sanjose.com/wp-content/uploads/2012/07/Silog-Burrito-120x120.jpg')*/
+/*}*/
+/*#item11 {*/
+  /*background-image: url('https://23886-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2014/01/2839962121_ef9360716a-120x120.jpg')*/
+/*}*/
+/*#item12 {*/
+  /*background-image: url('http://i2.wp.com/somethingtodeclare.net/wp-content/uploads/2015/07/zer-turkish-breakfast.png?resize=120%2C120')*/
+/*}*/
+
