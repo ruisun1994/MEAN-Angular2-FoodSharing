@@ -1,6 +1,145 @@
-<div id="section3">
-  <div class="sharing-1">
-    <img src="/assets/home/section3/boat.jpg">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+  <!-- 轮播（Carousel）项目 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="../../../assets/images/slider1.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../../../assets/images/slider2.png" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../../../assets/images/slide4.png" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../../../assets/images/slider3.png" alt="Third slide">
+    </div>
   </div>
-  <div class="sharing-2"></div>
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+  <!--Section2-->
+  <div class="container-fluid">
+    <div class="box">
+      <div class="box-content">
+        <div class="box-wrapper">
+          Daikokuya Little Tokyo<span class="name">shredded pork bowl</span>
+          <div class="row">Los Angeles</div>
+        </div>
+      </div>
+      <div class="box-overlay magictime" data-hover="slideLeft" data-return="slideLeftRetourn">
+        <img src="../../../assets/card/1.jpg" alt="" />	</div>
+      <a class="link" href="" target="_blank"></a>
+    </div>
+
+    <div class="box">
+      <div class="box-content">
+        <div class="box-wrapper">
+          Letena Ethiopian Restaurant<span class="name">Mushroom Dulet</span>
+          <div class="row">Washington DC</div>
+        </div>
+      </div>
+      <div class="box-overlay magictime" data-hover="slideUp" data-return="slideUpRetourn">
+        <img src="../../../assets/card/2.jpg" alt="" />			</div>
+      <a class="link" href="" target="_blank"></a>
+    </div>
+
+    <div class="box">
+      <div class="box-content">
+        <div class="box-wrapper">
+          Il Corvo Pasta<span class="name">Kale salad</span>
+          <div class="row">Seattle</div>
+        </div>
+      </div>
+      <div class="box-overlay magictime" data-hover="slideRight" data-return="slideRightRetourn">
+        <img src="../../../assets/card/3.jpg" alt="" />			</div>
+      <a class="link" href="" target="_blank"></a>
+    </div>
+
+
+    <div class="box">
+      <div class="box-content">
+        <div class="box-wrapper">
+          Shizen Vegan Sushi Bar& Izakaya<span class="name">Sushi</span>
+          <div class="row">San Francisoco</div>
+        </div>
+      </div>
+      <div class="box-overlay magictime" data-hover="slideLeft" data-return="slideLeftRetourn">
+        <img src="../../../assets/card/4.jpg" alt="" />			</div>
+      <a class="link" href="" target="_blank"></a>
+    </div>
+
+    <div class="box">
+      <div class="box-content">
+        <div class="box-wrapper">
+          Bowl'D Acai<span class="name">Original Gangster</span>
+          <div class="row">San Francisocos</div>
+        </div>
+      </div>
+      <div class="box-overlay magictime" data-hover="slideDown" data-return="slideDownRetourn">
+        <img src="../../../assets/card/5.jpg" alt="" />			</div>
+      <a class="link" href="" target="_blank"></a>
+    </div>
+
+    <div class="box">
+      <div class="box-content">
+        <div class="box-wrapper">
+          Shizen Vegan Sushi Bar& Izakaya<span class="name">Bakeries</span>
+          <div class="row">Boston</div>
+        </div>
+      </div>
+      <div class="box-overlay magictime" data-hover="slideRight" data-return="slideRightRetourn">
+        <img src="../../../assets/1.jpeg" alt="" />			</div>
+      <a class="link" href="" target="_blank"></a>
+    </div>
+
+    <div class="box">
+      <div class="box-content">
+        <div class="box-wrapper">
+          Shizen Vegan Sushi Bar& Izakaya<span class="name">Bakeries</span>
+          <div class="row">Boston</div>
+        </div>
+      </div>
+      <div class="box-overlay magictime" data-hover="slideRight" data-return="slideRightRetourn">
+        <img src="../../../assets/1.jpeg" alt="" />			</div>
+      <a class="link" href="" target="_blank"></a>
+    </div>
+
+    <div class="box">
+      <div class="box-content">
+        <div class="box-wrapper">
+          Shizen Vegan Sushi Bar& Izakaya<span class="name">Bakeries</span>
+          <div class="row">Boston</div>
+        </div>
+      </div>
+      <div class="box-overlay magictime" data-hover="slideRight" data-return="slideRightRetourn">
+        <img src="../../../assets/3.jpeg" alt="" />			</div>
+      <a class="link" href="" target="_blank"></a>
+    </div>
+  </div>
+<div class="empty"></div>
+  <!--Section3-->
+<div class="container-fluid">
+<div class="jumbotron text-center">
+  <h1>Food Sharing Dashboard</h1>
+  <p class="lead">Welcome to the MEAN Stack Application</p>
+  <div>
+    <a *ngIf="!authService.loggedIn()" routerLink="/register" class="btn btn-primary">Register</a>
+    <a *ngIf="!authService.loggedIn()" routerLink="/login" class="btn btn-default">Login</a>
+    <a *ngIf="authService.loggedIn()" routerLink="/blog" class="btn btn-success">View Sharing</a>
+  </div>
+</div>
 </div>

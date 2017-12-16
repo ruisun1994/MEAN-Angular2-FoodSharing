@@ -1,12 +1,76 @@
-#section3{
+app-navbar {
+  position: absolute;
+  background-color: transparent;
+  z-index: 999;
+}
+
+/*Section1*/
+h1 {
+  font-size: 26px;
+  color: #999;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#searchbar:focus {
   width: 100%;
 }
 
-.sharing-1{
-  float: left;
-  font-size: 10px;
-  position: relative;
-  height: 60em;
-  width: 100%;
-  margin-bottom: 5em;
+body {
+  padding: 0px;
+  margin: 0px;
 }
+
+#myCarousel {
+  width: 100%;
+  margin: 0px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+}
+
+
+
+/*Section2*/
+
+.card {
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  width: 20rem;
+}
+
+[class*="row"] {
+  margin-bottom: 1em;
+  justify-content: center;
+}
+
+[class*="col-"] {
+  background: #efefef;
+  border: 1px solid #ddd;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  width: 100%;
+}
+
+/*Section3*/
+.container-fluid {
+  width: 100%;
+}
+
+.header-insider {
+  position: absolute;
+  top: 170%;
+  left: 70%;
+}
+.empty{
+  background-color: white;
+  height: 490px;
+}
+

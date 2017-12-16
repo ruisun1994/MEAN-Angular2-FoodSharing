@@ -1,7 +1,7 @@
 {
   "name": "6150final",
   "version": "1.0.0",
-  "description": "MEAN stack INFO 6150 Final Project.",
+  "description": "Food sharing website MEAN Stack with Angular 2",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -10,17 +10,26 @@
     "type": "git",
     "url": "git+https://github.com/ruisun1994/MEAN-Angular2-INFO6150-Final.git"
   },
+  "keywords": [
+    "Food sharing",
+    "MEAN",
+    "Stack",
+    "Angular",
+    "2",
+    "Application"
+  ],
   "author": "Rui Sun, Mengfan Xu, Dongqi Guo, Tianjiao Xue, Kaijie Zhang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ruisun1994/MEAN-Angular2-INFO6150-Final/issues"
   },
-  "homepage": "https://github.com/ruisun1994/MEAN-Angular2-INFO6150-Final#readme",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
-    "body-parser": "^1.18.2",
-    "cors": "^2.8.4",
-    "express": "^4.16.2",
-    "mongoose": "^4.13.6"
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "font-awesome": "^4.7.0",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.10.2"
   }
 }
