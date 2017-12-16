@@ -19,6 +19,21 @@ export class BlogComponent implements OnInit {
   processing = false;
   username;
   blogPosts;
+  // imgList=[
+  //   "../../../mealsharing/1.jpg",
+  //   "../../../mealsharing/2.jpg",
+  //   "../../../mealsharing/3.jpg",
+  //   "../../../mealsharing/4.jpg",
+  //   "../../../mealsharing/5.jpg",
+  //   "../../../mealsharing/6.jpg",
+  //   "../../../mealsharing/7.jpg",
+  //   "../../../mealsharing/8.jpg",
+  //   "../../../mealsharing/9.jpg",
+  //   "../../../mealsharing/10.jpg",
+  //   "../../../mealsharing/11.jpg",
+  //   "../../../mealsharing/12.jpg",
+  //   "../../../mealsharing/13.jpg"
+  // ];
   newComment = [];
   enabledComments = [];
 
@@ -41,6 +56,8 @@ export class BlogComponent implements OnInit {
         Validators.minLength(5),
         this.alphaNumericValidation
       ])],
+      //Location
+      location:[''],
       // Body field
       body: ['', Validators.compose([
         Validators.required,
@@ -132,6 +149,7 @@ export class BlogComponent implements OnInit {
     // Create blog object from form fields
     const blog = {
       title: this.form.get('title').value, // Title field
+      location: this.form.get('location').value, //Location field
       body: this.form.get('body').value, // Body field
       createdBy: this.username // CreatedBy field
     }

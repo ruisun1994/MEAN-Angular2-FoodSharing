@@ -45,7 +45,7 @@ import { AboutusComponent } from './components/aboutus/aboutus.component';
     ReactiveFormsModule,
     FormsModule,
     AppRoutingModule,
-    FlashMessagesModule
+    FlashMessagesModule,
   ],
   providers: [AuthService, AuthGuard, NotAuthGuard, BlogService],
   bootstrap: [AppComponent]
